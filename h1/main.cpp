@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdexcept>
+#include <iomanip>
 
 using namespace std;
 
@@ -12,7 +13,8 @@ void calcDiv(int a, int b) {
     if (b == 0) {
         cout << "calcDiv error: Divisor cannot be zero!" << endl;
     } else {
-        cout << "calcDiv: " << a << " / " << b << " = " << (static_cast<float>(a) / b) << endl;
+        cout << "calcDiv: " << a << " / " << b << " = "
+        << fixed << setprecision(2) << (static_cast<float>(a) / b) << endl;
     }
 }
 
@@ -53,7 +55,7 @@ int main() {
     float result = 0;
     try {
         result = retDiv(a, b);
-        cout << a << "/" << b << " = " << result << endl;
+        cout << a << "/" << b << " = " << fixed << setprecision(2) << result << endl;
     } catch (runtime_error& e) {
         cout << "Error: " << e.what() << endl;
     }
