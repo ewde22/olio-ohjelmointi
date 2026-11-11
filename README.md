@@ -1,9 +1,9 @@
-#Olio-ohjelmointi
+# Olio-ohjelmointi
 Tässä repossa on Olio-ohjelmointikurssin tehtävät
 
-##Palautustilanne:
+## Palautustilanne:
 - **h1:** harjoitus 1 palautettu
-- **h2:**
+- **h2:** harjoitus 2a palautettu
 - **h3:**
 - **h4:**
 - **h5:**
