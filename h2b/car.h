@@ -1,10 +1,22 @@
 #ifndef CAR_H
 #define CAR_H
 
-class car
+#include <string>
+
+class Car
 {
-public:
-    car();
+    public:
+        Car(std::string b, std::string m, int y);
+
+        void printData() const;
+
+    private:
+        std::string brand;
+        std::string model;
+            int yearModel;
+
+
+
 };
 
 #endif // CAR_H
