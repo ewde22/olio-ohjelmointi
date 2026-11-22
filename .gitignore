@@ -1,3 +1,5 @@
-*/build/
-*/*.user
-./qtcreator
+**/build/
+**/*.user
+**/.qtcreator/
+**/.gitignore
+
